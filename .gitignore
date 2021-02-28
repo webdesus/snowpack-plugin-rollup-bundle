@@ -1,5 +1,4 @@
 **/*node_modules
-pkg
 yarn-error.log
 cypress/videos
 __tests__/examples/**/*dist
