@@ -12,7 +12,7 @@ export function defaultInputOptions({ buildDirectory, tmpDir, sourcemap }) {
   const plugins = [
     resolve({ browser: true }),
     styles({
-      mode: ["extract"],
+      mode: ["extract", "app.css"],
       autoModules: (id) => id.includes(".module.css"),
       minimize: true,
       sourceMap: sourcemap,
