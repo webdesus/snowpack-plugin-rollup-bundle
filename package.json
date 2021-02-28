@@ -85,5 +85,6 @@
     "start-server-and-test": "^1.11.7",
     "uvu": "^0.5.1"
   },
-  "version": "0.4.4"
+  "version": "0.4.4",
+  "main": "pkg/dist-node/index.js"
 }
